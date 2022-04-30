@@ -1,7 +1,37 @@
+
+// MENU NAVIGAZIONE
+
 $(document).ready(function(){
     var menu_items = $("#menu_items");
-    var menu = ['Chi siamo','Lavorazioni','Progetti & realizzazioni','Area Tecnica',];
+    // var menu = ['Chi siamo','Lavorazioni','Progetti & realizzazioni','Area Tecnica',];
+    var menu = [
+        {
+            label: 'Chi siamo',
+            href: '#'
+        },
+        {
+            label: 'Lavorazioni',
+            href: '#'
+        },
+        {
+            label: 'Progetti & Realizzazioni',
+            href:'#'
+        },
+        {
+            label: 'Area Tecnica',
+            href: '#'
+        },
+    ];
     $.each(menu,function(index,value){
-        menu_items.append($('<li class="nav-item"> <a class="nav-link" aria-current="page" href="#">' + value + " </a> </li>"));
+        // console.log(value.href);
+        
+        menu_items.append($('<li class="nav-item"> <a class="nav-link"  href=" '+ value.href +' " >' + value.label + " </a> </li>"));
+        
+        
     });
+
+  
+   
+    
 });
+
