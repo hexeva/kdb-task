@@ -1,8 +1,12 @@
-
+/* commons */
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
+
+
+/* end commons */
 
 /* HEADER */
 .banner_top{
@@ -21,6 +25,29 @@ body{
     margin: 0 20px;
 }
 
+.nav_menu a{
+    color: #1D1D1B;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.nav_menu a:hover{
+    color: #1D1D1B;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
+    
+}
+
+.btn_general{
+    background-color: #103368;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 26px;
+    font-size: 16px;
+    font-weight: 300;
+}
 
 
 /* END HEADER */

@@ -25,7 +25,7 @@ $(document).ready(function(){
     $.each(menu,function(index,value){
         // console.log(value.href);
         
-        menu_items.append($('<li class="nav-item"> <a class="nav-link"  href=" '+ value.href +' " >' + value.label + " </a> </li>"));
+        menu_items.append($('<li class="nav-item"> <a class="nav-link mx-3"  href=" '+ value.href +' " >' + value.label + " </a> </li>"));
         
         
     });
