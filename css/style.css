@@ -97,20 +97,47 @@ h2{
 }
 
 .contents{
-    width: 80%;
+    width: 50%;
     position: absolute;
-    top: 200px;
-    left: 50px;
-   
+    top: 210px;
+    left: 0; 
+}
+.contents h1{
+    font-size: 24px;
+    font-weight: 400;
+}
+.contents h2{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 90px;
+}
+.kdb{
+    font-size: 24px;
+    font-weight: 400;
+}
+.icon{
+    margin-top: 110px;
 }
 .icon i{
     color: white;
-    padding: 12px;
+    padding: 16px;
+    line-height: 16px;
     border-radius: 50%;
     border: 1px solid white;
-    font-size: 15px;
+    font-size: 20px;
 }
 .bullets{
-    width: 20%;
+    width: 10%;
+    position: absolute;
+    top: 318px;
+    right: -119px;
+    font-size: 9px;
+    
 }
+.active{
+    color: red;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
 /* END MAIN */
