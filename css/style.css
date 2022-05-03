@@ -156,7 +156,7 @@ img{
 /* SECTION LAVORAZIONI */
 .show{
     animation-name: change;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
 }
 .show:hover{
     display: none;
@@ -165,7 +165,7 @@ img{
 .hide{ 
     display: none;
     animation-name: change;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
 }
 
 
