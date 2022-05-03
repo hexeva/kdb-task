@@ -4,9 +4,11 @@ body{
     font-family: 'Roboto', sans-serif;
     
 }
-img{
-    max-width: 100%;
+section{
+    width: 100%;
 }
+
+
 h1{
     font-size: 24px;
     font-weight: 400;
@@ -16,6 +18,11 @@ h2{
     line-height: 90px;
     font-weight: 700;
 }
+img{
+    width: 100%;
+    display: block;
+}
+
 
 
 
@@ -80,8 +87,7 @@ h2{
     width: 100%;
     background-image: url('../assets/shutterstock_81251641.png');
     background-repeat: no-repeat;
-    background-size: contain;
-    /* test */
+    background-size: cover;
     height: 735px;
 }
 .jumbo-contents{
@@ -140,10 +146,66 @@ h2{
     border-radius: 50%;
 }
 
-/* SECTION ABOUT */
+/* SECTION CHI SIAMO */
 
 .about{
     width: 100%;
+    padding:80px 0;
 }
 
+
+/* SECTION LAVORAZIONI */
+.show{
+    animation-name: change;
+    animation-duration: 1s;
+}
+.show:hover{
+    display: none;
+    
+}
+.hide{ 
+    display: none;
+    animation-name: change;
+    animation-duration: 1s;
+}
+
+
+.col-wrap{
+    width: 100%;
+}
+.col-wrap img{
+    object-fit: cover;
+}
+.images{
+    width: 100%;
+    position: relative;
+    
+}
+
+.images:hover .hide{
+    display: block !important;
+    
+}
+.images:hover .show{
+    display: none;
+    
+}
+
+@keyframes change
+{
+    0%{opacity:0;}
+    100%{opacity:.7;}
+};
+
+/* SEZIONE TECNICA */
+.technics{
+    width: 100%;
+    padding: 80px 0;
+}
+
+
+
+
 /* END MAIN */
+
+
