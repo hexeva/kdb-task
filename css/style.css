@@ -82,7 +82,7 @@ h2{
     background-repeat: no-repeat;
     background-size: contain;
     /* test */
-    height: 1120px;
+    height: 735px;
 }
 .jumbo-contents{
     width: 100%;
@@ -138,6 +138,12 @@ h2{
     color: red;
     border: 1px solid white;
     border-radius: 50%;
+}
+
+/* SECTION ABOUT */
+
+.about{
+    width: 100%;
 }
 
 /* END MAIN */
